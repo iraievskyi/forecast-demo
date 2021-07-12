@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  config-server:
+    image: config-server:0.0.1-SNAPSHOT
+    ports:
+      - "8071:8071"
+    networks:
+      backend:
+        aliases:
+          - "configserver"
+  forecast-service:
+    image: forecast-service:0.0.1-SNAPSHOT
+    environment:
+      CONFIGSERVER_URI: "http://configserver:8071"
+      CONFIGSERVER_PORT: "8071"
+    depends_on:
+      config-server:
+        condition: service_started
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge

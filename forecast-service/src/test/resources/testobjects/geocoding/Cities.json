@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Milan",
+    "local_names": {
+      "af": "Milaan",
+      "ar": "ميلانو",
+      "ascii": "Milan",
+      "bg": "Милано",
+      "ca": "Milà",
+      "da": "Milano",
+      "de": "Mailand",
+      "en": "Milan",
+      "eu": "Milan",
+      "feature_name": "Milan",
+      "fi": "Milano",
+      "fr": "Milan",
+      "he": "מילאנו",
+      "hr": "Milano",
+      "hu": "Milánó",
+      "id": "Milan",
+      "it": "Milano",
+      "ja": "ミラノ",
+      "la": "Mediolanum",
+      "lt": "Milanas",
+      "nl": "Milaan",
+      "no": "Milano",
+      "pl": "Mediolan",
+      "pt": "Milão",
+      "ro": "Milano",
+      "ru": "Милан",
+      "sk": "Miláno",
+      "sl": "Milano",
+      "sr": "Милано",
+      "th": "มิลาน",
+      "tr": "Milano"
+    },
+    "lat": 45.4643,
+    "lon": 9.1895,
+    "country": "IT"
+  }
+]

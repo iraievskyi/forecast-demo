@@ -1,0 +1,74 @@
+{
+  "forecasts": [
+    {
+      "date": "2021-07-12T08:00:00",
+      "minTemp": 22.1,
+      "maxTemp": 24.19,
+      "averageTemp": 23.15,
+      "humidity": 58
+    },
+    {
+      "date": "2021-07-12T10:00:00",
+      "minTemp": 26.18,
+      "maxTemp": 27.9,
+      "averageTemp": 27.04,
+      "humidity": 48
+    },
+    {
+      "date": "2021-07-12T12:00:00",
+      "minTemp": 29.31,
+      "maxTemp": 30.51,
+      "averageTemp": 29.91,
+      "humidity": 40
+    },
+    {
+      "date": "2021-07-12T14:00:00",
+      "minTemp": 31.48,
+      "maxTemp": 32.35,
+      "averageTemp": 31.91,
+      "humidity": 36
+    },
+    {
+      "date": "2021-07-12T16:00:00",
+      "minTemp": 32.86,
+      "maxTemp": 33.08,
+      "averageTemp": 32.97,
+      "humidity": 32
+    },
+    {
+      "date": "2021-07-13T08:00:00",
+      "minTemp": 21.02,
+      "maxTemp": 22.73,
+      "averageTemp": 21.88,
+      "humidity": 70
+    },
+    {
+      "date": "2021-07-13T10:00:00",
+      "minTemp": 24.18,
+      "maxTemp": 24.64,
+      "averageTemp": 24.41,
+      "humidity": 59
+    },
+    {
+      "date": "2021-07-13T12:00:00",
+      "minTemp": 26.01,
+      "maxTemp": 27.66,
+      "averageTemp": 26.84,
+      "humidity": 54
+    },
+    {
+      "date": "2021-07-13T14:00:00",
+      "minTemp": 27.48,
+      "maxTemp": 28.76,
+      "averageTemp": 28.12,
+      "humidity": 45
+    },
+    {
+      "date": "2021-07-13T16:00:00",
+      "minTemp": 22.95,
+      "maxTemp": 25.55,
+      "averageTemp": 24.25,
+      "humidity": 56
+    }
+  ]
+}
