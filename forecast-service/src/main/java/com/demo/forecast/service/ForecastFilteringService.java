@@ -91,7 +91,6 @@ public class ForecastFilteringService {
                 start.equals(LocalTime.of(startHours, startMinutes));
 
         return isAfterStart
-                .and(end -> end.isBefore(LocalTime.of(endHours, endMinutes)) ||
-                        end.equals(LocalTime.of(endHours, endMinutes)));
+                .and(end -> end.isBefore(LocalTime.of(endHours, endMinutes).plusSeconds(3601)));
     }
 }
