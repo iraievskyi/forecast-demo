@@ -10,8 +10,8 @@ spring:
 #        native:
 #          search-locations: classpath:/config
         git:
-          uri: https://github.com/iraievskyi/forecast-service.git
-          search-paths: forecast-service
+          uri: https://github.com/iraievskyi/forecast-demo.git
+          search-paths: forecast-demo
 server:
   port: 8071
 
