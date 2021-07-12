@@ -20,7 +20,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Mave
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/
+$ git clone https://github.com/iraievskyi/forecast-demo
 
 # To build the code as a docker image, open a command-line 
 # window and execute the following command:
